@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/kelseyc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kelseykchan.com
+  * I am kelseyc (https://keybase.io/kelseyc) on keybase.
+  * I have a public key with fingerprint 6556 14DB E489 4541 996B  9CA1 477D 18F7 0FB1 E1DB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010b2f677220a9b0d1167c9461117bda603e3a4a04f8eb7e68eb98534f0b145b760a",
+            "fingerprint": "655614dbe4894541996b9ca1477d18f70fb1e1db",
+            "host": "keybase.io",
+            "key_id": "477d18f70fb1e1db",
+            "kid": "01010b2f677220a9b0d1167c9461117bda603e3a4a04f8eb7e68eb98534f0b145b760a",
+            "uid": "54375ffb319f2df45ee13f455eade319",
+            "username": "kelseyc"
+        },
+        "service": {
+            "hostname": "kelseykchan.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1471101729,
+    "expire_in": 157680000,
+    "prev": "b0d311ae9a128518531bc7ac6c7a514a75c11abd23509af02097adbb74a3ac10",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.55
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJbSBRRGN7V0rwUEkVGZDSFIprMmevOWmRWpA8hkW6FyXbOzBl3WJ3Z
+dsfNxUvYBQKtCCMs0/LBLlTqiz5k5CVJ6GIR6INkVmaIZGUmQiZ0Ruoh6LFz4D+c
+//++73z/z+lbHm6Lts+OVZXkT/s/25/21JXYDrSmbyyjkKGEKGcZ5cWLBy5ScMB0
+ezWFclI0IBsxqiCKDENDCdEKAIIoS5wAABCRAgWaxSzkIM2pDoxELJAoOXiWU2kE
+OB6JAg2pVErV9ELs9/k13SSyAs8LgFMQ5hwSx3NAkgQkyRBwoqgAhyrSKgIYKIgQ
+PUbAYhBzCAZwmmaQHLm4F+39A/+ffZcsyvEcK/KqilggqYyicjzGgCUHj6GCSdIC
+BrBfh8V40WtRAIdkqiKVIsmgJmNrrlYjfwG8sgfqabJRTNg+v2EaslFEih7T9Dkt
+rhnyWeBjGLl/y7iRpitkkIQQxP6AZuiUExCkbGqWLhkfIH2LjJRK4VKf5sduzULw
+ouCgybKewUEiSabBAgCxBAHj4AHpGiBZhLJAAg84KPIyKSOFYXlagirN0JIIFYRE
+DrJQBjRlNXZUNygnR2zCQiIZ0Ap1aJb4MVXR2314ic0ebYtYGmZ9MFt0VNyfb9ed
+FLmQMP3mBhMzver2287yB9mvGTxpXEDvY8cqH3V1S2ae62B5wzdhOzuQFdc/sCb4
+6ntP0URW9vBMeErE+EBGyqHkvY1n5aYNNexw/KnRnIQruWu5arpmvraxoB2t25U/
+n5PlyuiI9PY9v/UwP/RyJs/1bPDS1v7pr/r4tsn9rojakcuN6+09vVPDbfMTO9rb
+mloX6u6VVqUfd2QOvUg0lp28LwUHP3Qmro7JaKdixz9llY3ONcTsqR+Rf075snfv
+zE0tuPoxpPxo6wIdYfbH8dV3E1sqN2UOrYzqvL6lJXnwYpLZ7NhH3zl3Prn5XSk4
+0Xnty9yT2TP1N1eMHvFIm/XT2i+drUYB
+=SjGc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kelseyc
+
+==================================================================
+
