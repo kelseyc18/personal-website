@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kelseyc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kelseykchan.com
+  * I am kelseyc (https://keybase.io/kelseyc) on keybase.
+  * I have a public key ASC91M8wJJt5lMqXuj0aBSmyqLDTlP9cPxupGG_fElPUAQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bdd4cf30249b7994ca97ba3d1a0529b2a8b0d394ff5c3f1ba9186fdf1253d4010a",
+      "host": "keybase.io",
+      "kid": "0120bdd4cf30249b7994ca97ba3d1a0529b2a8b0d394ff5c3f1ba9186fdf1253d4010a",
+      "uid": "54375ffb319f2df45ee13f455eade319",
+      "username": "kelseyc"
+    },
+    "merkle_root": {
+      "ctime": 1558321875,
+      "hash": "7fb7d22e51f6cc6faa8d484a9acbeb56fb391db014ac5ba61a44c1bbaf4d784bbb69e2b852b6ea7994dff84d131857a80c5c8e4929cc4869988a1f1c13efc156",
+      "hash_meta": "2023973dfd62c081ec1fbdd3754c20a44eef4bddfddfa2e00aa831bf09f48179",
+      "seqno": 5406865
+    },
+    "service": {
+      "entropy": "q7tYzF62gmrt6jxTIqUDRiQD",
+      "hostname": "kelseykchan.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1558321879,
+  "expire_in": 504576000,
+  "prev": "2fc6206af945a0d717e6e123d6060d1734fe980492fc264e22ceadbd5a3c014f",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvdTPMCSbeZTKl7o9GgUpsqiw05T/XD8bqRhv3xJT1AEKp3BheWxvYWTESpcCDcQgL8YgavlFoNcX5uEj1gYNFzT+mASS/CZOIs6tvVo8AU/EIFEWnAbqv+EIDXHBQIpFDd2J4yDRvguV7lcC0Z45i9NMAgHCo3NpZ8RAPmf4agNTkzIVL7My6otBUNYrcVUJOKD+xxJ3zuiynEVjEB6F6cgeRvDC+DOheWg6IgKwChI5YQdXGa7YJeSwAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHW06/vhZqU/ZnfLRSn7o/vVWhbEvHbes2Q2bBSxJJGXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kelseyc
+
+==================================================================
