@@ -137,3 +137,23 @@ a:not(:visited) {
   box-sizing: border-box;
   width: 100%;
 }
+
+.anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+}
+
+.anchor:focus {
+  outline: none;
+}
+
+.octicon {
+  vertical-align: middle;
+  visibility: hidden;
+  display: inline-block;
+}
+
+h2:hover .octicon {
+  visibility: visible;
+}
