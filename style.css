@@ -28,28 +28,13 @@ h1 {
 h2 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 header {
 	font-family: 'IBM Plex Sans', sans-serif;
 	padding: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-  header {
-    width: unset;
-    position: absolute;
-  }
-
-  .intro {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-
-  .photo {
-    max-width: 350px;
-  }
 }
 
 section {
@@ -68,6 +53,7 @@ footer {
   flex-direction: column;
   align-items: center;
   font-size: 1rem;
+  text-align: center;
 }
 
 a:focus {
@@ -96,8 +82,9 @@ a:not(:visited) {
   color: var(--beige);
 }
 
-.dark-blue-background a:focus {
+footer.dark-blue-background a:focus {
   outline-color: #6999FF;
+  outline-offset: 2px;
 }
 
 .beige-background {
@@ -119,7 +106,6 @@ a:not(:visited) {
 
 .social-links {
   margin-bottom: 12px;
-  font-size: 48px;
 }
 
 .social-links a {
@@ -127,9 +113,9 @@ a:not(:visited) {
 }
 
 .social-icon {
-  width: 48px;
-  height: 48px;
-  margin: 2px;
+  width: 36px;
+  height: 36px;
+  margin: 4px;
 }
 
 .photo {
@@ -138,22 +124,34 @@ a:not(:visited) {
   width: 100%;
 }
 
-.anchor {
-  float: left;
-  padding-right: 4px;
-  margin-left: -20px;
+.permalink {
+  display: none;
 }
 
-.anchor:focus {
-  outline: none;
-}
+@media only screen and (min-width: 768px) {
+  header {
+    width: unset;
+    position: absolute;
+  }
 
-.octicon {
-  vertical-align: middle;
-  visibility: hidden;
-  display: inline-block;
-}
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
 
-h2:hover .octicon {
-  visibility: visible;
+  .photo {
+    max-width: 350px;
+    margin-left: 20px;
+  }
+
+  .permalink {
+    display: inline-block;
+    visibility: hidden;
+  }
+
+  h2:hover .permalink,
+  .anchor:focus .permalink {
+    visibility: visible;
+  }
 }
