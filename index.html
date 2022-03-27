@@ -1,91 +1,69 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Kelsey Chan</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="images/favicon.ico" />
+  <title>Kelsey Chan</title>
 
-    <!-- Google Analytics -->
-    <script>
-      window.ga =
-        window.ga ||
-        function () {
-          (ga.q = ga.q || []).push(arguments);
-        };
-      ga.l = +new Date();
-      ga("create", "UA-80865315-1", "auto");
-      ga("require", "autotrack");
-      ga("send", "pageview");
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    <script async src="autotrack.js"></script>
-    <!-- End Google Analytics -->
-  </head>
-  <body>
-    <header>
-      <h1>Kelsey Chan</h1>
-    </header>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600;700&family=IBM+Plex+Serif:wght@400;600&display=swap"
+    rel="stylesheet">
 
-    <main>
-      <h2>Welcome to my homepage!</h2>
-      <p>
-        I'm Kelsey (she/her/hers), and I am a software engineer. My latest
-        interests include learning how to advance diversity, equity, and
-        inclusion efforts in both technology and education.
-      </p>
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="style.css">
 
-      <section aria-labelledby="favorite-experiences">
-        <h3 id="favorite-experiences">My favorite teaching experiences 👩‍🏫</h3>
-        <p>
-          Reading
-          <a
-            href="https://www.goodreads.com/book/show/25078.Savage_Inequalities"
-            >Savage Inequalities</a
-          >
-          by Jonathan Kozol opened my eyes to the inequities built into the
-          American educational system. I may not have the knowledge or power to
-          change the system at large, but I can do my part to promote equal
-          access to computer science education.
-        </p>
-        <p>Here are a few of my favorite teaching stints:</p>
-        <ul>
-          <li>
-            I spent three years teaching middle school girls and non-binary
-            students how to program. Learn more about
-            <a href="http://codeit.mit.edu/">MIT CodeIt</a>.
-          </li>
-          <li>
-            I taught computer science to Israeli and Palestinian high school
-            students in Jerusalem and Nazareth. Learn more about
-            <a href="https://meet.mit.edu/"
-              >Middle East Entrepreneurs of Tomorrow</a
-            >
-            or check out
-            <a href="https://meetmit2017.wordpress.com/">my teaching blog</a>.
-          </li>
-          <li>
-            I taught a STEM workshop in South Korea at Yeomyung School, a school
-            for North Korean defectors. Check out
-            <a href="https://gtlkorea2018.wordpress.com/">my teaching blog</a>.
-          </li>
-          <li>
-            I taught workshops at a hackathon for women and non-binary people.
-            Check out my
-            <a href="https://coda.io/@kelsey/intro-to-web-development"
-              >intro to web development</a
-            > and <a href="https://coda.io/@kelsey/intro-to-python">intro to Python</a> workshop guides
-            and let me know what you think!
-          </li>
-        </ul>
-      </section>
+  <!-- Google Analytics -->
+  <script>
+    window.ga =
+      window.ga ||
+      function () {
+        (ga.q = ga.q || []).push(arguments);
+      };
+    ga.l = +new Date();
+    ga("create", "UA-80865315-1", "auto");
+    ga("require", "autotrack");
+    ga("send", "pageview");
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+  <script async src="autotrack.js"></script>
+  <!-- End Google Analytics -->
+</head>
 
-      <section aria-labelledby="diversity-inclusion">
-        <h3 id="diversity-inclusion">
+<body>
+  <header class="dark-blue-background">
+    <h1>Kelsey Chan</h1>
+  </header>
+
+  <main>
+    <section class="light-blue-background">
+      <div class="intro">
+        <img class="photo" src="images/kelsey.jpg" alt="Kelsey, an Asian woman smiling and wearing rectangular glasses">
+        <div>
+          <p class="subtitle"><span class="emoji">👋</span><br>
+            I'm Kelsey (she/her), and I am a software engineer.
+          </p>
+          <p>My latest interests include learning how to advance diversity, equity, and
+            inclusion efforts in both technology and education.</p>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="diversity-inclusion" class="beige-background">
+      <div>
+        <h2 id="diversity-inclusion">
+          <a class="anchor" aria-hidden="true" href="#diversity-inclusion">
+            <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16"
+              aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z">
+              </path>
+            </svg></a>
           Learning about diversity, equity, and inclusion (DEI) 🤝
-        </h3>
+        </h2>
         <p>
           I am not a DEI expert, but I've been trying to learn as much as I can
           about making tech more inclusive. What's great is that you don't need
@@ -103,104 +81,134 @@
           <li>
             On International Non-Binary People's Day, I pitched the idea to add
             an optional pronoun field to Coda Maker Profiles.
-            <a
-              href="https://community.coda.io/t/launched-pronouns-in-maker-profiles/17374"
-              title="Launch announcement for pronouns in Maker Profiles"
-              >We shipped the feature soon after!</a
-            >
+            <a href="https://community.coda.io/t/launched-pronouns-in-maker-profiles/17374"
+              title="Launch announcement for pronouns in Maker Profiles">We shipped the feature soon after!</a>
           </li>
           <li>
-            After learning more about the experiences of trans and non-binary
+            After learning more about the experiences of transgender and non-binary
             people, I led discussions on how to make our women's group more
             inclusive to other people with marginalized genders. We also updated
             our mission statement as a commitment to prioritizing
             intersectionality since gender is only one aspect of people's
             identities. Read more about
-            <a href="https://coda.io/@kelseyc/gender-equity-at-coda"
-              >Gender Equity at Coda</a
-            >.
+            <a href="https://coda.io/@kelseyc/gender-equity-at-coda">Gender Equity at Coda</a>.
           </li>
           <li>
             My teammates and I learned more about website accessibility and created
-            <a href="https://coda.io/@charlotte/accessibility-audit-template"
-              >an accessibility audit template</a
-            >
+            <a href="https://coda.io/@charlotte/accessibility-audit-template">an accessibility audit template</a>
             for unofficial audits. I also came up with some product design and
             engineering guidelines for creating accessible products.
           </li>
           <li>
             I'm keeping
-            <a href="https://coda.io/@kelsey/learning-about-dei"
-              >a running list of DEI articles</a
-            >
+            <a href="https://coda.io/@kelsey/learning-about-dei">a running list of DEI articles</a>
             that I've found helpful. Let me know if you have any suggestions!
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section aria-labelledby="why-so-ugly">
-        <h3 id="why-so-ugly">Why is this website so ugly? 🚨</h3>
+    <section aria-labelledby="teaching" class="light-blue-background">
+      <div>
+        <h2 id="teaching">
+          <a class="anchor" aria-hidden="true" href="#teaching">
+            <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16"
+              aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z">
+              </path>
+            </svg></a>
+          My favorite teaching experiences 👩‍🏫</h2>
         <p>
-          I was curious if I could make a decent website without using any
-          custom styling. I also took this opportunity to learn how
-          <a
-            href="https://www.w3.org/TR/wai-aria-practices/examples/landmarks/index.html"
-            >ARIA landmarks</a
-          >
-          make websites more compatible with
-          <a
-            href="https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers"
-            title="List of screen readers provided by American Foundation for the Blind"
-            >screen readers</a
-          >. Turns out, it's quite simple! If you are using macOS, I recommend
-          trying to navigate this webpage using the
-          <a
-            href="https://help.apple.com/voiceover/mac/10.15/#/vo2682"
-            title="VoiceOver User Guide"
-            >built-in VoiceOver software</a
-          >. Windows users can use the
-          <a
-            href="https://support.microsoft.com/en-us/help/22798/windows-10-complete-guide-to-narrator"
-            title="Narrator User Guide"
-            >built-in Narrator</a
-          >.
+          Reading
+          <a href="https://www.goodreads.com/book/show/25078.Savage_Inequalities">Savage Inequalities</a>
+          by Jonathan Kozol opened my eyes to the inequities built into the
+          American educational system. I may not have the knowledge or power to
+          change the system at large, but I can do my part to promote equal
+          access to computer science education.
         </p>
-        <p>
-          Here are two tools you can use to test the accessibility of webpages:
-          <a href="https://wave.webaim.org/"
-            >WAVE Web Accessibility Evaluation Tool</a
-          >
-          and
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector"
-            >Firefox Accessibility Inspector</a
-          >.
-        </p>
-        <p>
-          Just to clarify, websites that are accessible can still look
-          beautiful! This one just happens to be ugly.
-        </p>
-      </section>
-
-      <section aria-labelledby="social-media">
-        <h3 id="social-media">My social media 👩‍💻</h3>
+        <p>Here are a few of my favorite teaching stints:</p>
         <ul>
-          <li><a href="https://coda.io/@kelsey/">Coda</a></li>
-          <li><a href="https://www.goodreads.com/kelsey9 ">Goodreads</a></li>
-          <li><a href="https://twitter.com/kelsey_chan9">Twitter</a></li>
           <li>
-            <a href="https://www.linkedin.com/in/kelseykchan/">LinkedIn</a>
+            I spent three years teaching middle school girls and non-binary
+            students how to program. Learn more about
+            <a href="http://codeit.mit.edu/">MIT CodeIt</a>.
           </li>
-          <li><a href="https://github.com/kelseyc18/">GitHub</a></li>
-          <li><a href="https://www.quora.com/profile/Kelsey-Chan">Quora</a></li>
-          <li><a href="https://www.instagram.com/dessinsdekelc/">Instagram</a></li>
+          <li>
+            I taught computer science to Israeli and Palestinian high school
+            students in Jerusalem and Nazareth. Learn more about
+            <a href="https://meet.mit.edu/">Middle East Entrepreneurs of Tomorrow</a>
+            or check out
+            <a href="https://meetmit2017.wordpress.com/">my teaching blog</a>.
+          </li>
+          <li>
+            I taught a STEM workshop in South Korea at Yeomyung School, a school
+            for North Korean defectors. Check out
+            <a href="https://gtlkorea2018.wordpress.com/">my teaching blog</a>.
+          </li>
+          <li>
+            I taught workshops at a hackathon for women and non-binary people.
+            Check out my
+            <a href="https://coda.io/@kelsey/intro-to-web-development">intro to web development</a> and <a
+              href="https://coda.io/@kelsey/intro-to-python">intro to Python</a> workshop guides
+            and let me know what you think!
+          </li>
         </ul>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer>
-      <i>Last Modified: January 5, 2021</i>
-      <p>© 2021 Kelsey Chan. All rights reserved.</p>
-    </footer>
-  </body>
+    <section aria-labelledby="web-accessibility" class="beige-background">
+      <div>
+        <h2 id="web-accessibility">
+          <a class="anchor" aria-hidden="true" href="#web-accessibility">
+            <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16"
+              aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z">
+              </path>
+            </svg></a>
+          Web accessibility 🌐</h2>
+        <p>
+          I first learned about accessibility through a college class on assistive technology in 2015. A few years
+          later,
+          I spent my internship at <a href="https://www.khanacademy.org/">Khan Academy</a> fixing accessibility
+          issues based on the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility
+            Guidelines (WCAG)</a>. Since then, I've taken the <a
+            href="https://www.edx.org/course/web-accessibility-introduction">
+            W3C Intro to Web Accessibility Course</a> on edX and attended several web accessibility virtual conferences
+          to
+          continue learning how to achieve organizational success with accessibility.
+        </p>
+        <p>Here are a few things I've done to make sure this website is accessible:</p>
+        <ul>
+          <li>Make sure colors satisfy the <a href="https://webaim.org/resources/contrastchecker/">color contrast
+              ratio</a> for WCAG 2.1 Level AA.</li>
+          <li>Provide <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">alternative text</a> where
+            applicable for images.</li>
+          <li>Ensure that all functionality is <a href="https://www.w3.org/WAI/perspective-videos/keyboard/">
+              accessible via keyboard</a> and that focus indicators are clearly visible.</li>
+          <li>Use automated accessibility testers like
+            <a href="https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/index.html">Firefox
+              Accessibility Inspector</a> to detect issues.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="dark-blue-background">
+    <div class="social-links">
+      <a href="https://coda.io/@kelsey/"><img class="social-icon" src="images/coda.svg" alt="Coda" /></a>
+      <a href="https://www.instagram.com/dessinsdekelc/"><img class="social-icon" src="images/instagram.svg"
+          alt="Instagram" /></a>
+      <a href="https://www.goodreads.com/kelsey9 "><img class="social-icon" src="images/goodreads.svg"
+          alt="Goodreads" /></a>
+      <a href="https://twitter.com/kelsey_chan9"><img class="social-icon" src="images/twitter.svg" alt="Twitter" /></a>
+      <a href="https://www.linkedin.com/in/kelseykchan/"><img class="social-icon" src="images/linkedin.svg"
+          alt="LinkedIn" /></a>
+    </div>
+    <i>Last Modified: March 26, 2022</i>
+    <p>© 2022 Kelsey Chan. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>
