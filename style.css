@@ -1,0 +1,159 @@
+:root {
+	--dark-blue: #304C89;
+	--beige: #F5F4ED;
+	--primary-text: #2B2D42;
+	--light-blue: #CBD7F1;
+
+  --vertical-spacing: 30px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2rem;
+}
+
+header {
+	font-family: 'IBM Plex Sans', sans-serif;
+	padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    width: unset;
+    position: absolute;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .photo {
+    max-width: 350px;
+  }
+}
+
+section {
+  min-height: 100vh;
+  color: var(--primary-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--vertical-spacing);
+}
+
+footer {
+  padding: 65px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+a:focus {
+  outline: #002065 solid 2px; 
+  outline-offset: 4px;
+}
+
+section > div {
+  max-width: 1000px;
+}
+
+li + li {
+  margin-top: 12px;
+}
+
+a:visited {
+  color: #872189;
+}
+
+a:not(:visited) {
+  color: #18318b;
+}
+
+.dark-blue-background {
+  background-color: var(--dark-blue);
+  color: var(--beige);
+}
+
+.dark-blue-background a:focus {
+  outline-color: #6999FF;
+}
+
+.beige-background {
+  background-color: var(--beige);
+}
+
+.light-blue-background {
+  background-color: var(--light-blue);
+}
+
+.emoji {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.social-links {
+  margin-bottom: 12px;
+  font-size: 48px;
+}
+
+.social-links a {
+  display: inline-flex;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  margin: 2px;
+}
+
+.photo {
+  border: 8px solid var(--dark-blue);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+}
+
+.anchor:focus {
+  outline: none;
+}
+
+.octicon {
+  vertical-align: middle;
+  visibility: hidden;
+  display: inline-block;
+}
+
+h2:hover .octicon {
+  visibility: visible;
+}
