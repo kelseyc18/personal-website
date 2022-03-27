@@ -37,6 +37,12 @@ header {
 	padding: 20px;
 }
 
+header a:visited,
+header a:not(:visited) {
+  text-decoration: none;
+  color: var(--beige);
+}
+
 section {
   min-height: 100vh;
   color: var(--primary-text);
@@ -56,7 +62,7 @@ footer {
   text-align: center;
 }
 
-a:focus {
+body:not(.intent-mouse) a:focus {
   outline: #002065 solid 2px; 
   outline-offset: 4px;
 }
@@ -77,12 +83,16 @@ a:not(:visited) {
   color: #18318b;
 }
 
+a:focus {
+  outline: none;
+}
+
 .dark-blue-background {
   background-color: var(--dark-blue);
   color: var(--beige);
 }
 
-footer.dark-blue-background a:focus {
+body:not(.intent-mouse) footer.dark-blue-background a:focus {
   outline-color: #6999FF;
   outline-offset: 2px;
 }
